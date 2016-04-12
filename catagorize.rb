@@ -8,9 +8,8 @@ class Categorize
 
   # set constants
   PRODUCT_CODE = 0
-  PRODUCT_NAME = 1
-  PRODUCT_TAGS = 2
-  PRODUCT_CATS = 3
+  PRODUCT_TAGS = 1
+  PRODUCT_CATS = 2
 
   CAT_CODE = 0
   CAT_NAME = 1
@@ -37,7 +36,7 @@ class Categorize
   def write_products
     rslt = ""
     categoriezed.each do |p|
-      rslt += %Q("#{p[0]}","#{p[1]}","#{p[2]}","#{p[3]}"\n)
+      rslt += %Q("#{p[PRODUCT_CODE]}","#{p[PRODUCT_TAGS]}","#{p[PRODUCT_CATS]}"\n)
     end
     rslt
     IO.write('output.csv', rslt)
