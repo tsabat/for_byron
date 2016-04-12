@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 require 'csv'
-require 'byebug'
-require 'awesome_print'
+#require 'byebug'
+#require 'awesome_print'
 
 class Categorize
 
