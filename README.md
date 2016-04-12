@@ -7,11 +7,9 @@ This thing makes categories.  Isn't that cool?
 This application has some dependencies.  To get them, run this:
 
 ```
-sudo gem install bundler
 cd ~/Documents
 git clone https://github.com/tsabat/for_byron.git
 cd for_byron
-bundle install
 ```
 
 ### Run
