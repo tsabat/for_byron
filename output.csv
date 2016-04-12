@@ -1,3 +1,3 @@
-"A1", "Duck LED Keychain" ,"duck,flashlight,keychain", "101,102"
-"A2", "Whistle Light Keychain" ,"whistle,flashlight,keychain", "100,101,102"
-"A3", "Nurse Keychain with Whistle" ,"nurse,keychain,whistle", "103,102,100"
+A1, Duck LED Keychain, duck|flashlight|keychain, 101|102
+A2, Whistle Light Keychain, whistle|flashlight|keychain, 100|101|102
+A3, Nurse Keychain with Whistle, nurse|keychain|whistle, 103|102|100
