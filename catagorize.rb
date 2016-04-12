@@ -22,9 +22,13 @@ class Categorize
 
 
   def call
+    puts "setting up"
     init_values
+    puts "indexing"
     index_categories
+    puts "combining"
     loop_products
+    puts "writing #{products.count} products to 'results.csv'"
     write_products
   end
 
