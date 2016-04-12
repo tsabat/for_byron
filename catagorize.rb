@@ -37,7 +37,7 @@ class Categorize
   def write_products
     rslt = ""
     categoriezed.each do |p|
-      rslt += %Q("#{p[0]}", "#{p[1]}" ,"#{p[2]}", "#{p[3]}"\n)
+      rslt += %Q("#{p[0]}", "#{p[1]}", "#{p[2]}", "#{p[3]}"\n)
     end
     rslt
     IO.write('output.csv', rslt)
