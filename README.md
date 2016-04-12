@@ -17,7 +17,7 @@ cd for_byron
 Once the above are run, you can execute the app like so:
 
 ```
-./catagorize.rb
+./categorize.rb
 ```
 
 ### Results
